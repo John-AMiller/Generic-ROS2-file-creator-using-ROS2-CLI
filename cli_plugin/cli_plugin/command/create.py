@@ -7,16 +7,16 @@ class CreateCommand(CommandExtension):
     def add_arguments(self, parser, cli_name): #adds arguments that will be used on the CLI
         parser.add_argument(
             'package_name', 
-            help='The name of the package where the node will be created.'
+            help='Location for node to be created.'
         )
         parser.add_argument(
             'node_name',
-            help='The name of the node to create.'
+            help='The name of the created node.'
         )
         parser.add_argument(
             'language',
             choices=['cpp', 'py'],
-            help='The programming language for the node (cpp or py).'
+            help='Language to use for the node (cpp or py).'
         )
 
     def main(self, *, args):
