@@ -10,7 +10,7 @@ setup(
     zip_safe=True,
     maintainer='your_name',
     maintainer_email='your_email@example.com',
-    description='',
+    description='Python scripts that create files within a ROS2 workspace while also updating the necessary CMake files',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
