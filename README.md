@@ -20,4 +20,7 @@ and this text for a C++ file type:
 
 ![image](https://github.com/user-attachments/assets/aaff6fa6-a18a-468a-a4b7-34bc04ff47d8)
 
-This can easily be modified to the user's preferences by simply changing the text relating to that specific file type within create_ros2_files.
+This text can easily be modified to the user's preferences by simply changing the text relating to that specific file type within create_ros2_files. The user can also make an empty file as the file does not need to contain any text upon creation for the script to work.
+
+# Notes
+Be sure that when entering the desired file name the user leaves the extension (.py or .cpp) ommited. Failure to do so will result in a file name similar to: file_name.py.py or file_name.cpp.cpp.
