@@ -1,8 +1,5 @@
-# Generic-file-creator-using-ROS2-CLI
+# Generic-file-creator-using-bash-script
 This repository includes a bash script that creates a file within a ROS2 package while simultaneously updating the necessary CMakeList.txt, setup.py, and package.xml files.
-
-# Implementation
-
 
 # Usage
 The usage of this program is simple, in a terminal run "./create_ros2_files.sh"
